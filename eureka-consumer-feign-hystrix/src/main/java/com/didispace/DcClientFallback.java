@@ -12,6 +12,7 @@ public class DcClientFallback implements DcClient {
 
     @Override
     public String consumer() {
-        return "fallback";
+        System.out.println("报错了");
+        return null;
     }
 }

@@ -18,10 +18,10 @@ public class DcController {
     DiscoveryClient discoveryClient;
 
     @GetMapping("/dc")
-    public String dc() {
+    public User dc() {
         String services = "Services: " + discoveryClient.getServices();
         System.out.println(services);
-        return services;
+        return new User(1,"2");
     }
 
 }

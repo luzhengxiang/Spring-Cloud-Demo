@@ -8,10 +8,15 @@
 - eureka-server  服务注册中心
 
 
+1，如何只通过网关访问Client服务，屏蔽非网关过来的请求。
+2，对象传输
+
+
+
 
 需要解决的问题
 分布式的应用监控，分布式日志监控、
-Spring Cloud Config
+配置中心 Spring Cloud Config
 监视仪表板
 cloud docker
 注册中心集群
