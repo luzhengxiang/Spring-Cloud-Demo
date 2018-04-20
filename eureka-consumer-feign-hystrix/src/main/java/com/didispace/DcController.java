@@ -22,4 +22,9 @@ public class DcController {
         return user;
     }
 
+    @GetMapping("/consumer3")
+    public String dc3() {
+        return dcClient.consumer3();
+    }
+
 }

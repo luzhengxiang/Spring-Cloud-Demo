@@ -25,4 +25,13 @@ public class DcController {
         return new User(1,"2");
     }
 
+    @GetMapping("/dc3")
+    public User dc3() {
+        String services = "Services: " + discoveryClient.getServices();
+        System.out.println(services);
+        //报错
+        System.out.println(1/0);
+        return new User(1,"2");
+    }
+
 }
